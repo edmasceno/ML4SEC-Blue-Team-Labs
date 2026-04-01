@@ -16,4 +16,6 @@ Detectar injeções de código em processos legítimos (como `lsass.exe` ou `svc
 ### Status
 [🚧] Coleta de dados e extração de telemetria.
 
+---
+
 em desenvolvimento...
