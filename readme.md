@@ -12,8 +12,11 @@ Identificação de executáveis ofuscados e *packers* utilizando o algoritmo **R
 * **Acurácia:** 100%
 * **Destaque:** Implementação de pipeline completa de extração de telemetria bruta e treinamento de modelo supervisionado.
 
-### 2. Lab 02: Análise de Tráfego de Rede (CICIDS2017)
-* **Status:** 🚧 Planejado / Em Estudo
+### 2. [Lab 02: Network IDS - Detecção de DDoS e Port Scanning](./Lab02-Network-IDS/)
+NIDS (Network Intrusion Detection System) treinado com o dataset **CICIDS2017** para identificação de ataques volumétricos e sondagem.
+* **Status:** ✅ Concluído
+* **Acurácia:** 100% (DDoS) / 99% (Geral)
+* **Destaque:** Engenharia de atributos focada em **TCP Flags** e tratamento de desbalanceamento de classes com `Random Forest (Balanced)`.
 
 ---
 
