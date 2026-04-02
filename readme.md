@@ -1,21 +1,27 @@
+# ML4SEC - Blue Team Labs 🛡️🤖
 
-# ML4SEC Blue Team Labs 🛡️🤖
-
-Este repositório contém laboratórios práticos focados na intersecção entre Machine Learning e Defesa Cibernética (Blue Team).
-
-## 🧪 Lab 01: Análise de Entropia de Memória para Detecção de Malware Fileless
-
-### Objetivo
-Detectar injeções de código em processos legítimos (como `lsass.exe` ou `svchost.exe`) utilizando modelos de Machine Learning treinados com dados de entropia de seções de memória.
-
-### Estrutura do Lab
-1. **Coleta:** Dump de RAM utilizando Volatility/Process Hacker.
-2. **Extração:** Script Python para extrair features (Entropia, permissões de página, tamanho da seção).
-3. **Análise:** Treinamento de modelo para detecção de anomalias.
-
-### Status
-[🚧] Coleta de dados e extração de telemetria.
+Repositório dedicado ao estudo e desenvolvimento de soluções de **Machine Learning aplicadas à Defesa Cibernética (Blue Team)**. O objetivo é documentar a criação de modelos para detecção de anomalias, análise de ameaças e automação de processos de SOC.
 
 ---
 
-em desenvolvimento...
+## 🧪 Laboratórios Disponíveis
+
+### 1. [Lab 01: Detecção de Malwares Fileless via Entropia](./Lab01-Memory-Entropy/)
+Identificação de executáveis ofuscados e *packers* utilizando o algoritmo **Random Forest** e análise de **Entropia de Shannon**.
+* **Status:** ✅ Concluído
+* **Acurácia:** 100%
+* **Destaque:** Implementação de pipeline completa de extração de telemetria bruta e treinamento de modelo supervisionado.
+
+### 2. Lab 02: Análise de Tráfego de Rede (CICIDS2017)
+* **Status:** 🚧 Planejado / Em Estudo
+
+---
+
+## 🛠️ Tech Stack & Ferramentas
+- **Linguagem:** Python 3.x
+- **Data Science:** Pandas, Scikit-Learn, Joblib
+- **Cybersecurity:** Análise de Memória, Cálculo de Entropia, Engenharia de Malware
+- **Versionamento:** Git & GitHub
+
+---
+*Este repositório documenta a evolução técnica em Cybersecurity e Ciência de Dados Aplicada.*
